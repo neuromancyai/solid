@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "paths": {
+      "@neuromancy/solid": ["dist/index.d.ts"]
+    }
+  },
+  "include": ["tests/actor-types.test-d.ts"]
+}
